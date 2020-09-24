@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+*{
+    font-family: 'Patrick Hand', cursive;
+  
+}
+body{
+    background-image: linear-gradient(180deg, #F2C09D,#F5B88E, #FAAA37);
+}
+.top__bg{
+    box-sizing: border-box;
+    height: 35rem;
+    margin-top: 4%;
+    width: 65rem;
+    background: white;
+   margin-left: auto;
+   margin-right: auto;
+   box-shadow: 0 4px 7px rgba(0, 0, 0, 0.2);
+   border-radius: 12px;
+}
+li {
+    list-style-type: none;
+}
+.flex {
+    display: flex;
+}
+.col {
+    flex-direction: column;
+}
+.row {
+    flex-direction: row;
+}
+.logo{
+    width:100px;
+}
+body {
+    overflow-x: hidden;
+}
+header {
+  
+    top: 12px;
+    right: 0;
+    left: 0;
+    height: 0;
+    z-index: 1;
+    background-color: #fff;
+    /*
+    box-shadow: 0 4px 7px rgba(0, 0, 0, 0.2);
+    padding: 0 30px 0 52px; 
+    */
+    padding: 15px 0 0 0;
+    border-radius: 20px;
+    justify-content: space-around;
+    align-items: flex-start;
+   
+}
+header .logo {
+    align-items: flex-start;
+  
+}
+header .logo img {
+    margin: 0 0 10px 0;
+}
+
+nav {
+    height: inherit;
+    width: 50%;
+}
+nav ul {
+    width: 100%;
+   height: inherit;
+   align-items: center;
+   justify-content: space-between;
+}
+
+nav a {
+    background-color: transparent;
+    text-decoration: none;
+    font-family: 'Patrick Hand', cursive;
+font-style: normal;
+color: #4D4D4D;
+    white-space: nowrap;
+}
+main{
+    padding: 200px ;
+}
+main .content{
+    text-align: center;
+    font-size: 1rem;
+}
+
+.circle{
+  
+    border-radius: 50%;
+    animation-iteration-count: infinite;
+ 
+}
+
+.un{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 18rem;
+    top:16rem;
+    background-color: rgb(48, 8, 48);
+    border: 1px solid rgb(48, 8, 48);
+    animation-name: twinkle-1;
+    animation-duration: 1s;
+       animation-timing-function: linear,ease-in,ease-out;
+     
+}
+.deux{
+    background-color: rgba(4, 4, 63, 0.877);
+    border: 1px solid rgba(4, 4, 63, 0.877);
+    position: absolute;
+    left: 32rem;
+    top:7rem;
+    width: 30px;
+    height: 30px;
+    animation-name: twinkle-2;
+    animation-duration: 3s;
+ 
+}
+.trois{
+    position: absolute;
+    left: 65rem;
+    top:20rem;
+    width: 45px;
+    height: 45px;
+    background-color: rgb(120, 120, 167);
+    border: 1px solid   rgb(120, 120, 167);
+    animation-duration: 2s;
+    animation-name: twinkle-1;
+    animation-timing-function: linear,ease-in,ease-out;
+}
+
+.quatre{
+   position: absolute;
+    left: 61rem;
+    top:15rem;
+    width: 20px;
+    height: 20px;
+    background-color: rgba(36, 20, 20, 0.89);
+    border: 1px solid   rgba(36, 20, 20, 0.89);
+    animation-name: twinkle-2;
+    animation-duration: 1.5s;
+
+    }  
+.cinq{
+    position: absolute;
+    left: 18rem;
+    top:32rem;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(179, 75, 75);
+    border: 1px solid  rgb(179, 75, 75);
+    animation-name: twinkle-1;
+    animation-duration: 1s;
+       animation-timing-function: linear,ease-in,ease-out;
+ 
+}
+.six{
+    position: absolute;
+    left: 24rem;
+    top:11rem;
+    width: 6px;
+    height: 6px;
+    background-color: rgba(36, 20, 20, 0.89);
+    border: 1px solid   rgba(36, 20, 20, 0.89);
+    animation-name: twinkle-2;
+    animation-duration: 4s;
+}
+.sept{
+    position: absolute;
+    left: 45rem;
+    top:10rem;
+    width: 6px;
+    height: 6px;
+    background-color: rgba(36, 20, 20, 0.89);
+    border: 1px solid   rgba(36, 20, 20, 0.89);
+    animation-name: twinkle-1;
+    animation-duration: 0.5s;
+       animation-timing-function: linear,ease-in,ease-out;
+}
+.huit{
+    position: absolute;
+    left: 53rem;
+    top:12rem;
+    width: 6px;
+    height: 6px;
+    background-color: rgba(36, 20, 20, 0.89);
+    border: 1px solid   rgba(36, 20, 20, 0.89);
+    animation-name: twinkle-2;
+    animation-duration: 1s;
+   
+}
+@keyframes twinkle-1 {
+    20% {
+      transform: scale(0.5);
+      opacity: 0.5;
+    }
+  }
+
+  @keyframes twinkle-2 {
+    20% {
+      transform: scale(0.5);
+      opacity: 0.5;
+    }
+  }
+.neuf{
+    position: absolute;
+    left: 60rem;
+    top:30rem;
+    width: 6px;
+    height: 6px;
+    background-color: rgb(120, 120, 167);
+    border: 1px solid   rgb(120, 120, 167);
+    animation-name: twinkle-1;
+    animation-duration: 1.9s;
+       animation-timing-function: linear,ease-in,ease-out;
+     
+}
+.dix{
+    position: absolute;
+    left: 25rem;
+    top:29rem;
+    width: 6px;
+    height: 6px;
+    background-color: rgb(179, 75, 75);
+    border: 1px solid  rgb(179, 75, 75);
+    animation-name: twinkle-2;
+    animation-duration: 1s;
+}
+.onze{
+    width: 6px;
+    height: 6px;
+    position: absolute;
+    left: 16.5rem;
+    top:25rem;
+    background-color: rgb(48, 8, 48);
+    border: 1px solid rgb(48, 8, 48);
+    animation-name: twinkle-1;
+    animation-duration: 1s;
+       animation-timing-function: linear,ease-in,ease-out;
+
+}
+.red{
+    text-decoration:underline;
+    color: red;
+}
+.text{
+    text-align:center;
+    margin:-5.3rem 0 0 0;
+}
