@@ -1,0 +1,762 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+*{
+    font-family: 'Patrick Hand', cursive;
+  
+}
+body{
+    background-image: linear-gradient(180deg, #F2C09D,#F5B88E, #FAAA37);
+}
+.top__bg{
+    box-sizing: border-box;
+    height: 35rem;
+    margin-top: 4%;
+    width: 65rem;
+    background: white;
+   margin-left: auto;
+   margin-right: auto;
+   box-shadow: 0 4px 7px rgba(0, 0, 0, 0.2);
+   border-radius: 12px;
+}
+li {
+    list-style-type: none;
+}
+.flex {
+    display: flex;
+}
+.col {
+    flex-direction: column;
+}
+.row {
+    flex-direction: row;
+}
+.logo{
+    width:100px;
+}
+body {
+    overflow-x: hidden;
+}
+header {
+  
+    top: 12px;
+    right: 0;
+    left: 0;
+    height: 0;
+    z-index: 1;
+    background-color: #fff;
+    /*
+    box-shadow: 0 4px 7px rgba(0, 0, 0, 0.2);
+    padding: 0 30px 0 52px; 
+    */
+    padding: 15px 0 0 0;
+    border-radius: 20px;
+    justify-content: space-around;
+    align-items: flex-start;
+   
+}
+header .logo {
+    align-items: flex-start;
+  
+}
+header .logo img {
+    margin: 0 0 10px 0;
+}
+
+nav {
+    height: inherit;
+    width: 50%;
+}
+nav ul {
+    width: 100%;
+   height: inherit;
+   align-items: center;
+   justify-content: space-between;
+}
+
+nav a {
+    background-color: transparent;
+    text-decoration: none;
+    font-family: 'Patrick Hand', cursive;
+font-style: normal;
+color: #4D4D4D;
+    white-space: nowrap;
+}
+main{
+    padding: 200px ;
+}
+main .content{
+    text-align: center;
+    font-size: 1rem;
+}
+
+.circle{
+  
+    border-radius: 50%;
+    animation-iteration-count: infinite;
+ 
+}
+
+.un{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 18rem;
+    top:16rem;
+    background-color: rgb(48, 8, 48);
+    border: 1px solid rgb(48, 8, 48);
+    animation-name: twinkle-1;
+    animation-duration: 1s;
+       animation-timing-function: linear,ease-in,ease-out;
+     
+}
+.deux{
+    background-color: rgba(4, 4, 63, 0.877);
+    border: 1px solid rgba(4, 4, 63, 0.877);
+    position: absolute;
+    left: 32rem;
+    top:7rem;
+    width: 30px;
+    height: 30px;
+    animation-name: twinkle-2;
+    animation-duration: 3s;
+ 
+}
+.trois{
+    position: absolute;
+    left: 65rem;
+    top:20rem;
+    width: 45px;
+    height: 45px;
+    background-color: rgb(120, 120, 167);
+    border: 1px solid   rgb(120, 120, 167);
+    animation-duration: 2s;
+    animation-name: twinkle-1;
+    animation-timing-function: linear,ease-in,ease-out;
+}
+
+.quatre{
+   position: absolute;
+    left: 61rem;
+    top:15rem;
+    width: 20px;
+    height: 20px;
+    background-color: rgba(36, 20, 20, 0.89);
+    border: 1px solid   rgba(36, 20, 20, 0.89);
+    animation-name: twinkle-2;
+    animation-duration: 1.5s;
+
+    }  
+.cinq{
+    position: absolute;
+    left: 18rem;
+    top:32rem;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(179, 75, 75);
+    border: 1px solid  rgb(179, 75, 75);
+    animation-name: twinkle-1;
+    animation-duration: 1s;
+       animation-timing-function: linear,ease-in,ease-out;
+ 
+}
+.six{
+    position: absolute;
+    left: 24rem;
+    top:11rem;
+    width: 6px;
+    height: 6px;
+    background-color: rgba(36, 20, 20, 0.89);
+    border: 1px solid   rgba(36, 20, 20, 0.89);
+    animation-name: twinkle-2;
+    animation-duration: 4s;
+}
+.sept{
+    position: absolute;
+    left: 45rem;
+    top:10rem;
+    width: 6px;
+    height: 6px;
+    background-color: rgba(36, 20, 20, 0.89);
+    border: 1px solid   rgba(36, 20, 20, 0.89);
+    animation-name: twinkle-1;
+    animation-duration: 0.5s;
+       animation-timing-function: linear,ease-in,ease-out;
+}
+.huit{
+    position: absolute;
+    left: 53rem;
+    top:12rem;
+    width: 6px;
+    height: 6px;
+    background-color: rgba(36, 20, 20, 0.89);
+    border: 1px solid   rgba(36, 20, 20, 0.89);
+    animation-name: twinkle-2;
+    animation-duration: 1s;
+   
+}
+@keyframes twinkle-1 {
+    20% {
+      transform: scale(0.5);
+      opacity: 0.5;
+    }
+  }
+
+  @keyframes twinkle-2 {
+    20% {
+      transform: scale(0.5);
+      opacity: 0.5;
+    }
+  }
+.neuf{
+    position: absolute;
+    left: 60rem;
+    top:30rem;
+    width: 6px;
+    height: 6px;
+    background-color: rgb(120, 120, 167);
+    border: 1px solid   rgb(120, 120, 167);
+    animation-name: twinkle-1;
+    animation-duration: 1.9s;
+       animation-timing-function: linear,ease-in,ease-out;
+     
+}
+.dix{
+    position: absolute;
+    left: 25rem;
+    top:29rem;
+    width: 6px;
+    height: 6px;
+    background-color: rgb(179, 75, 75);
+    border: 1px solid  rgb(179, 75, 75);
+    animation-name: twinkle-2;
+    animation-duration: 1s;
+}
+.onze{
+    width: 6px;
+    height: 6px;
+    position: absolute;
+    left: 16.5rem;
+    top:25rem;
+    background-color: rgb(48, 8, 48);
+    border: 1px solid rgb(48, 8, 48);
+    animation-name: twinkle-1;
+    animation-duration: 1s;
+       animation-timing-function: linear,ease-in,ease-out;
+
+}
+.red{
+    text-decoration:underline;
+    color: red;
+}
+.text{
+    text-align:center;
+    margin:-5.7rem 0 0 0;
+}
+
+/* Mobile */
+
+@media only screen and (max-width: 1150px) {
+    body{
+        background-image: linear-gradient(to top, #F2C09D,#F5B88E, #FAAA37);
+    }
+    .top__bg{
+        box-sizing: border-box;
+        height: 35rem;
+        margin-top: 10%;
+        width: 62rem;
+        background-color: white;
+       margin-left: auto;
+       margin-right: auto;
+       box-shadow: 0 4px 7px rgba(0, 0, 0, 0.2);
+       border-radius: 12px;
+       overflow: hidden;
+    }
+    li {
+        list-style-type: none;
+    }
+    .flex {
+        display: flex;
+    }
+    .col {
+        flex-direction: column;
+    }
+    .row {
+        flex-direction: row;
+    }
+    .logo{
+        width:100px;
+    }
+    body {
+        overflow-x: hidden;
+    }
+    header {
+      
+        top: 3px;
+        right: 0;
+        left: 0;
+        height: 0;
+        z-index: 1;
+        background-color: #fff;
+        /*
+        box-shadow: 0 4px 7px rgba(0, 0, 0, 0.2);
+        padding: 0 30px 0 52px; 
+        */
+        justify-content: space-around;
+        align-items: flex-start;
+        border-radius: 0;
+       
+    }
+    header .logo {
+        align-items: flex-start;
+      
+    }
+    header .logo img {
+        margin: 0 0 10px 0;
+    }
+    
+    nav {
+        height: inherit;
+        width: 50%;
+    }
+    nav ul {
+        width: 100%;
+       height: inherit;
+       align-items: center;
+       justify-content: space-between;
+    }
+    
+    nav a {
+        
+        text-decoration: none;
+        font-family: 'Patrick Hand', cursive;
+    font-style: normal;
+    color: #4D4D4D;
+        white-space: nowrap;
+    }
+    
+.circle{
+  
+    border-radius: 50%;
+    animation-iteration-count: infinite;
+ 
+}
+
+.un{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 14rem;
+    top:13rem;
+    background-color: rgb(48, 8, 48);
+    border: 1px solid rgb(48, 8, 48);
+    animation-name: twinkle-1;
+    animation-duration: 1s;
+       animation-timing-function: linear,ease-in,ease-out;
+     
+}
+.deux{
+    background-color: rgba(4, 4, 63, 0.877);
+    border: 1px solid rgba(4, 4, 63, 0.877);
+    position: absolute;
+    left: 29rem;
+    top:8.5rem;
+    width: 30px;
+    height: 30px;
+    animation-name: twinkle-2;
+    animation-duration: 3s;
+ 
+}
+.trois{
+    position: absolute;
+    left: 56rem;
+    top:20rem;
+    width: 45px;
+    height: 45px;
+    background-color: rgb(120, 120, 167);
+    border: 1px solid   rgb(120, 120, 167);
+    animation-duration: 2s;
+    animation-name: twinkle-1;
+    animation-timing-function: linear,ease-in,ease-out;
+}
+
+.quatre{
+   position: absolute;
+    left: 50rem;
+    top:15rem;
+    width: 20px;
+    height: 20px;
+    background-color: rgba(36, 20, 20, 0.89);
+    border: 1px solid   rgba(36, 20, 20, 0.89);
+    animation-name: twinkle-2;
+    animation-duration: 1.5s;
+
+    }  
+.cinq{
+    position: absolute;
+    left: 18rem;
+    top:32rem;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(179, 75, 75);
+    border: 1px solid  rgb(179, 75, 75);
+    animation-name: twinkle-1;
+    animation-duration: 1s;
+       animation-timing-function: linear,ease-in,ease-out;
+ 
+}
+.six{
+    position: absolute;
+    left: 24rem;
+    top:11rem;
+    width: 6px;
+    height: 6px;
+    background-color: rgba(36, 20, 20, 0.89);
+    border: 1px solid   rgba(36, 20, 20, 0.89);
+    animation-name: twinkle-2;
+    animation-duration: 4s;
+}
+.sept{
+    position: absolute;
+    left: 4rem;
+    top:10rem;
+    width: 6px;
+    height: 6px;
+    background-color: rgba(36, 20, 20, 0.89);
+    border: 1px solid   rgba(36, 20, 20, 0.89);
+    animation-name: twinkle-1;
+    animation-duration: 0.5s;
+       animation-timing-function: linear,ease-in,ease-out;
+}
+.huit{
+    position: absolute;
+    left: 53rem;
+    top:12rem;
+    width: 6px;
+    height: 6px;
+    background-color: rgba(36, 20, 20, 0.89);
+    border: 1px solid   rgba(36, 20, 20, 0.89);
+    animation-name: twinkle-2;
+    animation-duration: 1s;
+   
+}
+@keyframes twinkle-1 {
+    20% {
+      transform: scale(0.5);
+      opacity: 0.5;
+    }
+  }
+
+  @keyframes twinkle-2 {
+    20% {
+      transform: scale(0.5);
+      opacity: 0.5;
+    }
+  }
+.neuf{
+    position: absolute;
+    left: 60rem;
+    top:30rem;
+    width: 6px;
+    height: 6px;
+    background-color: rgb(120, 120, 167);
+    border: 1px solid   rgb(120, 120, 167);
+    animation-name: twinkle-1;
+    animation-duration: 1.9s;
+       animation-timing-function: linear,ease-in,ease-out;
+     
+}
+.dix{
+    position: absolute;
+    left: 25rem;
+    top:29rem;
+    width: 6px;
+    height: 6px;
+    background-color: rgb(179, 75, 75);
+    border: 1px solid  rgb(179, 75, 75);
+    animation-name: twinkle-2;
+    animation-duration: 1s;
+}
+.onze{
+    width: 6px;
+    height: 6px;
+    position: absolute;
+    left: 16.5rem;
+    top:25rem;
+    background-color: rgb(48, 8, 48);
+    border: 1px solid rgb(48, 8, 48);
+    animation-name: twinkle-1;
+    animation-duration: 1s;
+       animation-timing-function: linear,ease-in,ease-out;
+
+}
+}
+
+
+@media only screen and (max-width: 770px) {
+    body{
+        overflow: hidden;
+            background-image: linear-gradient(180deg, #F2C09D,#F5B88E, #FAAA37);
+        }
+      
+        li {
+            list-style-type: none;
+        }
+        .flex {
+            display: flex;
+        }
+        .col {
+            flex-direction: column;
+        }
+        .row {
+            flex-direction: row;
+        }
+        .logo{
+            width:100px;
+        }
+        body {
+            overflow-x: hidden;
+        }
+        .top__bg{
+            margin-top:18%;
+        height: 30rem;
+        width: 56rem;
+        } 
+header {
+    position: fixed;
+    top: 0px;
+    right: 0;
+    left: 0;
+    height: 70px;
+    border-radius: 0;
+    z-index: 1;
+    background-color: #fff;
+    box-shadow: 0 4px 7px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+nav ul.flex.row {
+    padding-top: 80px;
+    z-index: 2;
+    justify-content: flex-start;
+    background:white;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    min-height: 110vh;
+    flex-direction: column;
+    overflow: hidden;
+    transition-duration: 300ms;
+    transform: translateX(-100%);
+  }
+  nav.open ul.flex.row {
+    transform: translateX(0);
+  }
+  nav {
+    width: fit-content;
+  }
+  nav ul.flex.row li {
+    margin-bottom: 40px;
+  }
+  #nav-icon {
+    margin: 0 1rem 0 0;
+    position: relative;
+    z-index: 4;
+    margin-top: 25px;
+    width: 35px;
+    height: fit-content;
+    cursor: pointer;
+  }
+  #nav-icon div {
+    border-radius: 2px;
+    height: 3px;
+    width: 35px;
+    margin-bottom: 10px;
+    background-color:black;
+    transition-duration: 300ms;
+  }
+  #nav-icon div:nth-child(3) {
+    margin-bottom: 0;
+  }
+  .open #nav-icon div:nth-child(1) {
+    transform: rotateZ(-45deg) translateX(-8px) translateY(10px);
+    color: black;
+  }
+  .open #nav-icon div:nth-child(2) {
+    opacity: 0;
+    color: black;
+  }
+  .open #nav-icon div:nth-child(3) {
+    transform: rotateZ(45deg) translateX(-8px) translateY(-10px);
+    color: black;
+  }
+  main{
+      overflow: hidden;
+      width: 1366px;
+      max-width: calc(100% - 20px);
+      padding: 0 10px;
+      margin: 0 auto;
+  }
+  .circle{
+      display: none;
+  }
+  .text{
+    text-align:center;
+    margin:7rem 0 0 0;
+  }
+  main .content{
+      margin-top: 3rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+    @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+    *{
+        font-family: 'Patrick Hand', cursive;
+      
+    }
+    
+    body{
+      
+        background-image: linear-gradient(180deg, #F2C09D,#F5B88E, #FAAA37);
+    }
+    /*
+    .top__bg{
+        box-sizing: border-box;
+        height: 70%;
+    max-width: 100%;
+        margin-top:50%;
+        margin-bottom: 40%;
+        width: 33vh;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: white;
+       box-shadow: 0 4px 7px rgba(0, 0, 0, 0.2);
+       border-radius: 12px;
+       overflow: hidden;
+    }
+     */
+    li {
+        list-style-type: none;
+    }
+    .flex {
+        display: flex;
+    }
+    .col {
+        flex-direction: column;
+    }
+    .row {
+        flex-direction: row;
+    }
+    .logo{
+        width:100px;
+    }
+    
+    
+header {
+    position: fixed;
+    top: 0px;
+    right: 0;
+    left: 0;
+    height: 70px;
+  
+    z-index: 1;
+    background-color: #fff;
+    box-shadow: 0 4px 7px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+nav ul.flex.row {
+    padding-top: 80px;
+    z-index: 2;
+    justify-content: flex-start;
+    background:white;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    min-height: 110vh;
+    flex-direction: column;
+    overflow: hidden;
+    transition-duration: 300ms;
+    transform: translateX(-100%);
+  }
+  nav.open ul.flex.row {
+    transform: translateX(0);
+  }
+  nav {
+    width: fit-content;
+  }
+  nav ul.flex.row li {
+    margin-bottom: 40px;
+  }
+  #nav-icon {
+    margin: 0 1rem 0 0;
+    position: relative;
+    z-index: 4;
+    margin-top: 25px;
+    width: 35px;
+    height: fit-content;
+    cursor: pointer;
+  }
+  #nav-icon div {
+    border-radius: 2px;
+    height: 3px;
+    width: 35px;
+    margin-bottom: 10px;
+    background-color:black;
+    transition-duration: 300ms;
+  }
+  #nav-icon div:nth-child(3) {
+    margin-bottom: 0;
+  }
+  .open #nav-icon div:nth-child(1) {
+    transform: rotateZ(-45deg) translateX(-8px) translateY(10px);
+    color: black;
+  }
+  .open #nav-icon div:nth-child(2) {
+    opacity: 0;
+    color: black;
+  }
+  .open #nav-icon div:nth-child(3) {
+    transform: rotateZ(45deg) translateX(-8px) translateY(-10px);
+    color: black;
+  }
+  main{
+     overflow: hidden;
+      width: 1366px;
+      max-width: calc(100% - 20px);
+      padding: 0 10px;
+      margin: 0 auto;
+  }
+  .top__bg{
+    box-sizing: border-box;
+    height: 95%;
+max-width: 100%;
+margin-top:43%;
+    width: 60vh;
+    margin-left: auto;
+    margin-right: auto;
+    padding:50px 0 0 0;
+    background-color: white;
+   box-shadow: 0 4px 7px rgba(0, 0, 0, 0.2);
+   border-radius: 12px;
+  overflow: hidden;
+}
+.circle{
+    display: none;
+}
+.text{
+    display: none;
+}
+main{
+    overflow: hidden;
+    width: 1366px;
+    max-width: calc(100% - 20px);
+    padding: 0 10px;
+    margin: 0 auto;
+}
+}
